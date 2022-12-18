@@ -1,12 +1,13 @@
-0x19. C - Stacks, Queues - LIFO, FIFO
+File	                 Description
 
-What you should learn from this project:
+monty.h	         Header file that contains all the functions and standard C library header file
 
-    What do LIFO and FIFO mean
-    What is a stack, and when to use it
-    What is a queue, and when to use it
-    What are the common implementations of stacks and queues
-    What are the most common use cases of stacks and queues
-    What is the proper way to use global variables
-    How to work with git submodules
+monty.c	        Contains the int main(int argc, char **argv)
 
+monty_func.c	It contains the functions: readfile, isnumber, fork.
+
+monty_math.c	Contains functions math : _add, _sub, _mul, _div and others
+
+stack_func.c	Contains functions create stack and queues: _push, _pall, _swat,
+
+stack_func2.c	It contains other functions for print char such as: _pchar, _nop
